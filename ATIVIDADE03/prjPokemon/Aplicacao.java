@@ -17,25 +17,25 @@ public class Aplicacao {
 		
 		Pokemon rattata = new Pokemon("Rattata", "Comum", 1, 50);
 		
+		pikachu.exibirinfo();
 		pikachu.evoluir();
 		pikachu.atacar();
-		pikachu.exibirinfo();
-		
+
+		charmander.exibirinfo();
 		charmander.evoluir();
 		charmander.atacar();
-		charmander.exibirinfo();
 		
+		bulbasaur.exibirinfo();
 		bulbasaur.evoluir();
 		bulbasaur.atacar();
-		bulbasaur.exibirinfo();
 		
+		squirtle.exibirinfo();
 		squirtle.evoluir();
 		squirtle.atacar();
-		squirtle.exibirinfo();
-		
+
+		rattata.exibirinfo();
 		rattata.evoluir();
 		rattata.atacar();
-		rattata.exibirinfo();
 		
 	}
 
