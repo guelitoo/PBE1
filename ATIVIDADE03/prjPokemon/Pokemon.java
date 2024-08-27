@@ -5,14 +5,14 @@ public class Pokemon {
 	//Atributos
 	String nome;
 	String tipo;
-	double nivel;
+	int nivel;
 	int hp;
 	
 	//Construtores
 	Pokemon() {
 	}
 	
-	public Pokemon(String nome, String tipo, double nivel, int hp) {
+	public Pokemon(String nome, String tipo, int nivel, int hp) {
 		this.nome = nome;
 		this.tipo = tipo;
 		this.nivel = nivel;
